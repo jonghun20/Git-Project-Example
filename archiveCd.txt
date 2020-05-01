@@ -1,0 +1,4 @@
+git archive --format=zip master -o Master.zip
+->Git Archive 명령으로 소스코드만 파일압축
+git archive --format=zip master -o ../Master.zip
+-> ../ 상위폴더로 내보내기
